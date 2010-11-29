@@ -2,7 +2,7 @@ class String
   # Cria a data com horário no padrao brasileiro e permanece aceitando no formato tradicional.
   #
   # Exemplo:
-  # "27/09/2007 01:23".to_date
+  # "27/09/2007 01:23".to_time
   alias_method :_original_to_time, :to_time
 
   def to_time
